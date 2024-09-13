@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    background-color: #343a40;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+.album-example{
+    text-align: center;
+    padding: 100px;
+}
+.album-example span{
+    font-size: 20px;
+}
+.album .album-post{
+    padding: 10px;
+}
+.album .album-post button{
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+}
+.album .album-post a{
+    border: 1px solid #6c757d;
+    background-color: #6c757d;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+.album-container{
+    text-align: center;
+    width: 270px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+.album-container h3{
+    width: 100%;
+   border: 1px solid black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: #55595c;
+   color: #e7e9e8;
+}
+.album-container .card{
+    padding: 7px;
+    
+}
+.album-container .view{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.album-container .view a {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.album .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+   padding: 10px;
+}
+.album .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.album-container .view a .type{
+    margin-left: 0;
+}
